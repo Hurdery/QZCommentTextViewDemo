@@ -6,9 +6,11 @@ step1：加到你需要的vc中
     _textView =[QZTopTextView topTextView];
     _textView.delegate = self;
     [self.view addSubview:_textView];
+
 step2：依据你的需要激活第一响应者
      [_textView.lpTextView becomeFirstResponder];
-step2：代理方法获取用户输入的文本
+
+step3：代理方法获取用户输入的文本
       - (void)sendCommen;
       
 缺陷：
