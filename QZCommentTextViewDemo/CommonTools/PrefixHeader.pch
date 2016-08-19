@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  QZCommentTextViewDemo
+//
+//  Created by MrYu on 16/8/20.
+//  Copyright © 2016年 yu qingzhu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "CommonDef.h"
+#import "CTColorDef.h"
+#import "UIView+Extension.h"
+#import "UIFont+Extension.h"
+
+#endif /* PrefixHeader_pch */
