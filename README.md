@@ -2,6 +2,7 @@
 封装类网易新闻评论新闻输入框，监听键盘改变显示高度，自带黑灰背景
 
 用法：
+
 step1：加到你需要的vc中
     _textView =[QZTopTextView topTextView];
     _textView.delegate = self;
