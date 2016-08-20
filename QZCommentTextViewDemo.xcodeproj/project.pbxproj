@@ -60,6 +60,7 @@
 		44E402D11D68085000847A79 /* QZTopTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTopTextView.m; sourceTree = "<group>"; };
 		44E402D21D68085000847A79 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		44E402D31D68085000847A79 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		44E402D71D680A0D00847A79 /* CommonDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDef.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +160,7 @@
 				44E402D11D68085000847A79 /* QZTopTextView.m */,
 				44E402D21D68085000847A79 /* UIView+Extension.h */,
 				44E402D31D68085000847A79 /* UIView+Extension.m */,
+				44E402D71D680A0D00847A79 /* CommonDef.h */,
 			);
 			path = QZCommentTextView;
 			sourceTree = "<group>";
