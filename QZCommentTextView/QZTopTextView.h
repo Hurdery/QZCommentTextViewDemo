@@ -19,8 +19,8 @@
 
 @property (nonatomic,strong) LPlaceholderTextView *lpTextView;
 
-+ (instancetype)topTextView;
-
 @property (nonatomic,weak) id<QZTopTextViewDelegate> delegate;
+
++ (instancetype)topTextView;
 
 @end

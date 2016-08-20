@@ -5,6 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
+/** 自带placeholder的textView */ 
 @interface LPlaceholderTextView : UITextView
 {
     UILabel *_placeholderLabel;
