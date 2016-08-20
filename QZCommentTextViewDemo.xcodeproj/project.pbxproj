@@ -15,10 +15,9 @@
 		442C06271D676C42004060F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442C06251D676C42004060F5 /* LaunchScreen.storyboard */; };
 		442C06321D676C42004060F5 /* QZCommentTextViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C06311D676C42004060F5 /* QZCommentTextViewDemoTests.m */; };
 		442C063D1D676C42004060F5 /* QZCommentTextViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C063C1D676C42004060F5 /* QZCommentTextViewDemoUITests.m */; };
-		442C064D1D676C8D004060F5 /* QZTopTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C064C1D676C8D004060F5 /* QZTopTextView.m */; };
-		442C06501D676CC2004060F5 /* LPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C064F1D676CC2004060F5 /* LPlaceholderTextView.m */; };
-		442C06621D6773EE004060F5 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C065F1D6773EE004060F5 /* UIFont+Extension.m */; };
-		442C06631D6773EE004060F5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C06611D6773EE004060F5 /* UIView+Extension.m */; };
+		44E402D41D68085000847A79 /* LPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E402CF1D68085000847A79 /* LPlaceholderTextView.m */; };
+		44E402D51D68085000847A79 /* QZTopTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E402D11D68085000847A79 /* QZTopTextView.m */; };
+		44E402D61D68085000847A79 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E402D31D68085000847A79 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,17 +54,12 @@
 		442C06381D676C42004060F5 /* QZCommentTextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZCommentTextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442C063C1D676C42004060F5 /* QZCommentTextViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZCommentTextViewDemoUITests.m; sourceTree = "<group>"; };
 		442C063E1D676C42004060F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		442C064B1D676C8D004060F5 /* QZTopTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTopTextView.h; sourceTree = "<group>"; };
-		442C064C1D676C8D004060F5 /* QZTopTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTopTextView.m; sourceTree = "<group>"; };
-		442C064E1D676CC2004060F5 /* LPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPlaceholderTextView.h; sourceTree = "<group>"; };
-		442C064F1D676CC2004060F5 /* LPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPlaceholderTextView.m; sourceTree = "<group>"; };
-		442C065B1D6773EE004060F5 /* CommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDef.h; sourceTree = "<group>"; };
-		442C065C1D6773EE004060F5 /* CTColorDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTColorDef.h; sourceTree = "<group>"; };
-		442C065D1D6773EE004060F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		442C065E1D6773EE004060F5 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
-		442C065F1D6773EE004060F5 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
-		442C06601D6773EE004060F5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		442C06611D6773EE004060F5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		44E402CE1D68085000847A79 /* LPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPlaceholderTextView.h; sourceTree = "<group>"; };
+		44E402CF1D68085000847A79 /* LPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPlaceholderTextView.m; sourceTree = "<group>"; };
+		44E402D01D68085000847A79 /* QZTopTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTopTextView.h; sourceTree = "<group>"; };
+		44E402D11D68085000847A79 /* QZTopTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTopTextView.m; sourceTree = "<group>"; };
+		44E402D21D68085000847A79 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		44E402D31D68085000847A79 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +90,7 @@
 		442C060B1D676C42004060F5 = {
 			isa = PBXGroup;
 			children = (
+				44E402CD1D68085000847A79 /* QZCommentTextView */,
 				442C06161D676C42004060F5 /* QZCommentTextViewDemo */,
 				442C06301D676C42004060F5 /* QZCommentTextViewDemoTests */,
 				442C063B1D676C42004060F5 /* QZCommentTextViewDemoUITests */,
@@ -116,8 +111,6 @@
 		442C06161D676C42004060F5 /* QZCommentTextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				442C065A1D6773EE004060F5 /* CommonTools */,
-				442C064A1D676C75004060F5 /* QZCommentTextView */,
 				442C061A1D676C42004060F5 /* AppDelegate.h */,
 				442C061B1D676C42004060F5 /* AppDelegate.m */,
 				442C061D1D676C42004060F5 /* ViewController.h */,
@@ -157,29 +150,17 @@
 			path = QZCommentTextViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		442C064A1D676C75004060F5 /* QZCommentTextView */ = {
+		44E402CD1D68085000847A79 /* QZCommentTextView */ = {
 			isa = PBXGroup;
 			children = (
-				442C064E1D676CC2004060F5 /* LPlaceholderTextView.h */,
-				442C064F1D676CC2004060F5 /* LPlaceholderTextView.m */,
-				442C064B1D676C8D004060F5 /* QZTopTextView.h */,
-				442C064C1D676C8D004060F5 /* QZTopTextView.m */,
+				44E402CE1D68085000847A79 /* LPlaceholderTextView.h */,
+				44E402CF1D68085000847A79 /* LPlaceholderTextView.m */,
+				44E402D01D68085000847A79 /* QZTopTextView.h */,
+				44E402D11D68085000847A79 /* QZTopTextView.m */,
+				44E402D21D68085000847A79 /* UIView+Extension.h */,
+				44E402D31D68085000847A79 /* UIView+Extension.m */,
 			);
 			path = QZCommentTextView;
-			sourceTree = "<group>";
-		};
-		442C065A1D6773EE004060F5 /* CommonTools */ = {
-			isa = PBXGroup;
-			children = (
-				442C065B1D6773EE004060F5 /* CommonDef.h */,
-				442C065C1D6773EE004060F5 /* CTColorDef.h */,
-				442C065D1D6773EE004060F5 /* PrefixHeader.pch */,
-				442C065E1D6773EE004060F5 /* UIFont+Extension.h */,
-				442C065F1D6773EE004060F5 /* UIFont+Extension.m */,
-				442C06601D6773EE004060F5 /* UIView+Extension.h */,
-				442C06611D6773EE004060F5 /* UIView+Extension.m */,
-			);
-			path = CommonTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,12 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442C064D1D676C8D004060F5 /* QZTopTextView.m in Sources */,
+				44E402D61D68085000847A79 /* UIView+Extension.m in Sources */,
+				44E402D51D68085000847A79 /* QZTopTextView.m in Sources */,
+				44E402D41D68085000847A79 /* LPlaceholderTextView.m in Sources */,
 				442C061F1D676C42004060F5 /* ViewController.m in Sources */,
-				442C06621D6773EE004060F5 /* UIFont+Extension.m in Sources */,
-				442C06631D6773EE004060F5 /* UIView+Extension.m in Sources */,
 				442C061C1D676C42004060F5 /* AppDelegate.m in Sources */,
-				442C06501D676CC2004060F5 /* LPlaceholderTextView.m in Sources */,
 				442C06191D676C42004060F5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonTools/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QZCommentTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -475,7 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonTools/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QZCommentTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -550,6 +530,7 @@
 				442C06431D676C42004060F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		442C06441D676C42004060F5 /* Build configuration list for PBXNativeTarget "QZCommentTextViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +539,7 @@
 				442C06461D676C42004060F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		442C06471D676C42004060F5 /* Build configuration list for PBXNativeTarget "QZCommentTextViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +548,7 @@
 				442C06491D676C42004060F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

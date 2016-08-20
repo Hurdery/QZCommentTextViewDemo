@@ -3,6 +3,7 @@
 //  Copyright (c) 2013 Luka Gabrić. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 
 @interface LPlaceholderTextView : UITextView
 {
