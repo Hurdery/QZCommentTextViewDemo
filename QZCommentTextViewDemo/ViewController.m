@@ -45,6 +45,7 @@
 {
     NSLog(@"%@",_textView.lpTextView.text);
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
