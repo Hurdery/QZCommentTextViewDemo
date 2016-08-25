@@ -40,16 +40,16 @@
 #pragma mark - 监听键盘
 - (void)keyboardWillAppear:(NSNotification *)notif
 {
-    NSDictionary *info = [notif userInfo];
-    NSValue *value = [info objectForKey:UIKeyboardFrameBeginUserInfoKey];
-    CGSize keyboardSize = [value CGRectValue].size;
-    [UIView animateWithDuration:2 animations:^{
-       self.y = SCREEN_HEIGHT - keyboardSize.height - self.height;
-    }];
-    [self.superview addSubview:_bgView];
-    [self.superview addSubview:self];
-    
-    
+    if ([self.lpTextView isFirstResponder]) {
+        NSDictionary *info = [notif userInfo];
+        NSValue *value = [info objectForKey:UIKeyboardFrameBeginUserInfoKey];
+        CGSize keyboardSize = [value CGRectValue].size;
+        [UIView animateWithDuration:2 animations:^{
+            self.y = SCREEN_HEIGHT - keyboardSize.height - self.height;
+        }];
+        [self.superview addSubview:_bgView];
+        [self.superview addSubview:self];
+    }
 }
 - (void)keyboardWillDisappear:(NSNotification *)notif
 {
