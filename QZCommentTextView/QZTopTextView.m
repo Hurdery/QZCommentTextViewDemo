@@ -28,6 +28,7 @@
 {
     if (self = [super initWithFrame:frame]) {
         self.frame = CGRectMake(0, SCREEN_HEIGHT, SCREEN_WIDTH, ConvertTo6_H(316)*CT_SCALE_Y);
+        self.lpTextView.scrollsToTop = NO;
         self.backgroundColor = UIColorFromRGB(0xf8f8f8);
         [self makeSubView];
         
