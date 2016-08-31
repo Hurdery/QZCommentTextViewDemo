@@ -38,6 +38,7 @@
 
 - (void)write
 {
+    // hardware keyboard
     [_textView.lpTextView becomeFirstResponder];
 }
 
