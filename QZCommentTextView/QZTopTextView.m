@@ -48,7 +48,9 @@
         NSValue *value = [info objectForKey:UIKeyboardFrameEndUserInfoKey];
         //        CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
         CGSize keyboardSize = [value CGRectValue].size;
+        NSLog(@"keyboardSize.height%f",keyboardSize.height);
         
+        // 5s ios10 可能有问题  带验证
         [UIView animateWithDuration:0.5 animations:^{
             if (keyboardSize.height == 292.0 || keyboardSize.height == 282.0) {
                 // 适配搜狗输入法 分别在6p  6/5s 高度
@@ -56,6 +58,8 @@
             }else{
                 self.y = SCREEN_HEIGHT - keyboardSize.height - ConvertTo6_H(316)*CT_SCALE_Y ;
             }
+            
+//            self.y = SCREEN_HEIGHT - keyboardSize.height - ConvertTo6_H(316)*CT_SCALE_Y ;
         }];
         [self.superview addSubview:_bgView];
         [self.superview addSubview:self];
