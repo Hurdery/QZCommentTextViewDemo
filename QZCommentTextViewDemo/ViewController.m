@@ -34,6 +34,7 @@
     _textView =[QZTopTextView topTextView];
     _textView.delegate = self;
     [self.view addSubview:_textView];
+
 }
 
 - (void)write

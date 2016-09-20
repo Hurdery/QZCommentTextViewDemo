@@ -232,6 +232,7 @@
 				TargetAttributes = {
 					442C06131D676C42004060F5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FDSVMX6CDK;
 					};
 					442C062C1D676C42004060F5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -443,11 +444,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FDSVMX6CDK;
 				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QZCommentTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZCommentTextViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZCommentTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -457,11 +459,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FDSVMX6CDK;
 				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QZCommentTextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZCommentTextViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZCommentTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
