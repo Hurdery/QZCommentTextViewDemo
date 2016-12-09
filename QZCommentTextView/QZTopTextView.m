@@ -30,7 +30,8 @@
         //        self.frame = CGRectMake(0, SCREEN_HEIGHT, SCREEN_WIDTH, ConvertTo6_H(316)*CT_SCALE_Y);
         // 切换中文九宫格所有数据都对 但是现实会有一个差不多10的间距  加大高度 补足 多的部分键盘挡住 视觉效果没有变
         self.frame = CGRectMake(0, SCREEN_HEIGHT, SCREEN_WIDTH, ConvertTo6_H(400)*CT_SCALE_Y);
-        self.lpTextView.scrollsToTop = NO;
+//        self.lpTextView.scrollsToTop = NO;
+        self.countNumTextView.scrollsToTop = NO;
         self.backgroundColor = UIColorFromRGB(0xf8f8f8);
         [self makeSubView];
         // 添加键盘监听
@@ -43,7 +44,8 @@
 #pragma mark - 监听键盘
 - (void)keyboardWillAppear:(NSNotification *)notif
 {
-    if ([self.lpTextView isFirstResponder]) {
+    
+    if ([self.countNumTextView isFirstResponder]) {
         NSDictionary *info = [notif userInfo];
         NSValue *value = [info objectForKey:UIKeyboardFrameEndUserInfoKey];
         //        CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
@@ -77,30 +79,30 @@
 #pragma mark - 非通知调用键盘消失方法
 - (void)keyboardWillDisappear
 {
-    [self.lpTextView resignFirstResponder];
+    [self.countNumTextView resignFirstResponder];
 }
 
 
 -(void)makeSubView
 {
     // 输入框
-    self.lpTextView.frame = CGRectMake(ConvertTo6_W(30)*CT_SCALE_X, 10, SCREEN_WIDTH - 2 * ConvertTo6_W(30)*CT_SCALE_X, ConvertTo6_H(200)*CT_SCALE_Y);
-    self.lpTextView.placeholderText = @"请输入你的评论";
-    self.lpTextView.font = [UIFont systemFontOfSize:14];
-    self.lpTextView.textColor = UIColorFromRGB(0x333333);
-    self.lpTextView.layer.borderWidth = 0.5;
-    self.lpTextView.layer.borderColor = UIColorFromRGB(0xffffff).CGColor;
-    self.lpTextView.layer.cornerRadius = 2;
-    self.lpTextView.clipsToBounds = YES;
-    [self addSubview:self.lpTextView];
+    self.countNumTextView.frame = CGRectMake(ConvertTo6_W(30)*CT_SCALE_X, 10, SCREEN_WIDTH - 2 * ConvertTo6_W(30)*CT_SCALE_X, ConvertTo6_H(200)*CT_SCALE_Y);
+    self.countNumTextView.placeholder = @"请输入你的评论";
+    self.countNumTextView.font = [UIFont systemFontOfSize:14];
+    self.countNumTextView.textColor = UIColorFromRGB(0x333333);
+    self.countNumTextView.layer.borderWidth = 0.5;
+    self.countNumTextView.layer.borderColor = UIColorFromRGB(0xffffff).CGColor;
+    self.countNumTextView.layer.cornerRadius = 2;
+    self.countNumTextView.clipsToBounds = YES;
+    [self addSubview:self.countNumTextView];
     
     // @"发布"btn
     _issueBtn = [[UIButton alloc] init];
     _issueBtn.width = ConvertTo6_W(114)*CT_SCALE_X;
     _issueBtn.height = ConvertTo6_H(54)*CT_SCALE_Y;
     // 右边对齐输入框
-    _issueBtn.x = self.lpTextView.x + self.lpTextView.width - _issueBtn.width;
-    _issueBtn.y = self.lpTextView.y + self.lpTextView.height + 10;
+    _issueBtn.x = self.countNumTextView.x + self.countNumTextView.width - _issueBtn.width;
+    _issueBtn.y = self.countNumTextView.y + self.countNumTextView.height + 10;
     [_issueBtn setTitle:@"发布" forState:UIControlStateNormal];
     _issueBtn.backgroundColor = UIColorFromRGB(0x00a0ff);
     _issueBtn.layer.cornerRadius = 2;
@@ -134,6 +136,19 @@
     }
     return _lpTextView;
 }
+
+- (QZCountNumTextView *)countNumTextView
+{
+    if (!_countNumTextView) {
+
+        _countNumTextView = [QZCountNumTextView countNumTextView];
+        _countNumTextView.frame = CGRectMake(10, 100, [UIScreen mainScreen].bounds.size.width - 20, 150);
+        _countNumTextView.placeholder = @"分享新鲜事...";
+        _countNumTextView.maxCount = 100;
+    }
+    return _countNumTextView;
+}
+
 
 -(void)dealloc
 {

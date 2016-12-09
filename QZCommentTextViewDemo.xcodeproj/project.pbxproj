@@ -18,6 +18,7 @@
 		44E402D41D68085000847A79 /* LPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E402CF1D68085000847A79 /* LPlaceholderTextView.m */; };
 		44E402D51D68085000847A79 /* QZTopTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E402D11D68085000847A79 /* QZTopTextView.m */; };
 		44E402D61D68085000847A79 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E402D31D68085000847A79 /* UIView+Extension.m */; };
+		44E7F03C1DFAA2790063FC55 /* QZCountNumTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E7F03B1DFAA2790063FC55 /* QZCountNumTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		44E402D21D68085000847A79 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		44E402D31D68085000847A79 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		44E402D71D680A0D00847A79 /* CommonDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDef.h; sourceTree = "<group>"; };
+		44E7F03A1DFAA2790063FC55 /* QZCountNumTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZCountNumTextView.h; sourceTree = "<group>"; };
+		44E7F03B1DFAA2790063FC55 /* QZCountNumTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZCountNumTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 		44E402CD1D68085000847A79 /* QZCommentTextView */ = {
 			isa = PBXGroup;
 			children = (
+				44E7F03A1DFAA2790063FC55 /* QZCountNumTextView.h */,
+				44E7F03B1DFAA2790063FC55 /* QZCountNumTextView.m */,
 				44E402CE1D68085000847A79 /* LPlaceholderTextView.h */,
 				44E402CF1D68085000847A79 /* LPlaceholderTextView.m */,
 				44E402D01D68085000847A79 /* QZTopTextView.h */,
@@ -302,6 +307,7 @@
 				442C061F1D676C42004060F5 /* ViewController.m in Sources */,
 				442C061C1D676C42004060F5 /* AppDelegate.m in Sources */,
 				442C06191D676C42004060F5 /* main.m in Sources */,
+				44E7F03C1DFAA2790063FC55 /* QZCountNumTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +454,7 @@
 				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QZCommentTextViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZCommentTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -464,7 +470,7 @@
 				GCC_PREFIX_HEADER = "";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QZCommentTextViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qz.QZCommentTextView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

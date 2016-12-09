@@ -40,12 +40,12 @@
 - (void)write
 {
     // hardware keyboard
-    [_textView.lpTextView becomeFirstResponder];
+    [_textView.countNumTextView becomeFirstResponder];
 }
 
 - (void)sendComment
 {
-    NSLog(@"%@",_textView.lpTextView.text);
+    NSLog(@"%@",_textView.countNumTextView.text);
 }
 
 - (void)didReceiveMemoryWarning {

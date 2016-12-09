@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "LPlaceholderTextView.h"
+#import "QZCountNumTextView.h"
 
 @protocol QZTopTextViewDelegate <NSObject>
 
@@ -18,6 +19,8 @@
 @interface QZTopTextView : UIView
 
 @property (nonatomic,strong) LPlaceholderTextView *lpTextView;
+
+@property (nonatomic,strong) QZCountNumTextView *countNumTextView;
 
 @property (nonatomic,weak) id<QZTopTextViewDelegate> delegate;
 
