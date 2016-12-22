@@ -1,4 +1,7 @@
 # QZCommentTextViewDemo
+
+- 如果点击评论无法唤起，检查 模拟器->hardwear->keyboard 不要选择连接键盘
+
 封装类网易新闻评论新闻输入框，监听键盘改变显示高度，自带黑灰背景
 
 用法：
