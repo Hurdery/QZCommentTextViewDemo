@@ -12,7 +12,7 @@ step1：加到你需要的vc中
     [self.view addSubview:_textView];
 
 step2：依据你的需要激活第一响应者
-     [_textView.lpTextView becomeFirstResponder];
+     [_textView.countNumTextView becomeFirstResponder];
 
 step3：代理方法获取用户输入的文本
       - (void)sendCommen;
