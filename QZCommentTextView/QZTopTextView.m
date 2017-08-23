@@ -124,6 +124,8 @@
 - (void)issueBtnClicked
 {
     if (self.delegate && [self.delegate respondsToSelector:@selector(sendComment)]) {
+        self.countNumTextView.text = @"";
+        [self.countNumTextView resignFirstResponder];
         [self.delegate sendComment];
     }
 }
